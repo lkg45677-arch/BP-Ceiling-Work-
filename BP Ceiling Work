@@ -1,0 +1,137 @@
+<!DOCTYPE html>  <html lang="hi">    
+<head>    
+  <meta charset="UTF-8">    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <title>BP Ceiling Work | Kushinagar</title>    
+  <style>    
+    body {margin:0; font-family:'Poppins', sans-serif; background:#f8f9fa; color:#222;}    
+    header {background:#212529; color:#fff; text-align:center; padding:1.2rem;}    
+    header h1 {margin:0; font-size:2rem;}    
+    nav {display:flex; justify-content:center; gap:1.2rem; background:#343a40; padding:0.8rem;}    
+    nav a {color:#fff; text-decoration:none; font-weight:500;}    
+    nav a:hover {text-decoration:underline;}    
+    section {padding:2rem 1rem; max-width:1000px; margin:auto;}    
+    .hero {text-align:center; background:url('https://images.unsplash.com/photo-1616627983618-2b1c8b9b8f9f') center/cover no-repeat; color:#fff; padding:5rem 1rem; border-radius:16px;}    
+    .hero h2 {font-size:2rem; background:rgba(0,0,0,0.5); display:inline-block; padding:0.5rem 1rem; border-radius:8px;}    
+    .services {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1rem;}    
+    .service-card {background:#fff; padding:1rem; border-radius:12px; box-shadow:0 3px 8px rgba(0,0,0,0.1); text-align:center;}    
+    .service-card img {width:100%; border-radius:12px;}    
+    .gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1rem;}    
+    .gallery img {width:100%; border-radius:12px; box-shadow:0 3px 8px rgba(0,0,0,0.1);}    
+    footer {background:#212529; color:#fff; text-align:center; padding:1.5rem; margin-top:2rem;}    
+    .contact {text-align:center; background:#fff; padding:2rem; border-radius:12px; box-shadow:0 3px 8px rgba(0,0,0,0.1);}    
+    .btn {background:#ffca2c; color:#000; padding:0.7rem 1.5rem; border-radius:8px; text-decoration:none; font-weight:600;}    
+    .btn:hover {background:#ffc107;}    
+    /* Weather dashboard styles */    
+    .weather-dashboard {background:#fff; border-radius:12px; box-shadow:0 3px 8px rgba(0,0,0,0.1); padding:2rem; margin:2rem auto;}    
+    .weather-form {display:flex; justify-content:center; gap:1rem; margin-bottom:1rem;}    
+    .weather-form input {padding:0.5rem; font-size:1rem;}    
+    .weather-form button {padding:0.5rem 1rem; font-size:1rem; background:#ffca2c; border:none; border-radius:8px; font-weight:600;}    
+    .weather-form button:hover {background:#ffc107;}    
+    .weather-result {text-align:center; margin-top:1rem;}    
+    .weather-icon {width:64px;}    
+    .weather-error {color:red;}    
+  </style>    
+</head>    
+<body>    
+  <header>    
+    <h1>BP Ceiling Work - Kushinagar</h1>    
+    <p>POP • PVC • Gypsum Ceiling • 3D Wallpaper • Lighting & More</p>    
+  </header>    
+  <nav>    
+    <a href="#services">Services</a>    
+    <a href="#gallery">Gallery</a>    
+    <a href="#weather">Weather</a>    
+    <a href="#contact">Contact</a>    
+  </nav>    
+  <section class="hero">    
+    <h2>घर की सुंदरता बढ़ाएँ, BP Ceiling Work के साथ ✨</h2>    
+    <p>हम कुशीनगर में उच्च-गुणवत्ता की Ceiling और Interior सेवाएँ प्रदान करते हैं।</p>    
+    <a class="btn" href="https://wa.me/918699465051">WhatsApp करें</a>    
+  </section>    
+  <section id="services">    
+    <h2 style="text-align:center;">हमारी सेवाएँ</h2>    
+    <div class="services">    
+      <div class="service-card">    
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="POP Ceiling">    
+        <h3>POP Ceiling</h3>    
+        <p>Modern POP design के साथ आपके घर को नया लुक दें।</p>    
+      </div>    
+      <div class="service-card">    
+        <img src="https://images.unsplash.com/photo-1598300056391-4a31a9c1c246" alt="PVC Ceiling">    
+        <h3>PVC Ceiling</h3>    
+        <p>Strong, water-resistant PVC Ceiling जो सालों तक चले।</p>    
+      </div>    
+      <div class="service-card">    
+        <img src="https://images.unsplash.com/photo-1628744448840-d1e1c6c86920" alt="Gypsum Ceiling">    
+        <h3>Gypsum Ceiling</h3>    
+        <p>Premium finish के लिए बेहतरीन gypsum design solutions।</p>    
+      </div>    
+      <div class="service-card">    
+        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed" alt="3D Wallpaper">    
+        <h3>3D Wallpaper</h3>    
+        <p>3D wallpapers से दीवारों में जीवंतता लाएँ।</p>    
+      </div>    
+      <div class="service-card">    
+        <img src="https://images.unsplash.com/photo-1600585154393-1ff3f33a7e3a" alt="Light Fitting">    
+        <h3>Light Fitting & Decoration</h3>    
+        <p>Ceiling lighting design जो हर कोने को रोशन करे।</p>    
+      </div>    
+    </div>    
+  </section>    
+  <section id="gallery">    
+    <h2 style="text-align:center;">हमारे कुछ कार्य</h2>    
+    <div class="gallery">    
+      <img src="https://images.unsplash.com/photo-1600573472591-ee6981aa1d0b" alt="Ceiling Work 1">    
+      <img src="https://images.unsplash.com/photo-1600585154154-3d1a33f2b6c5" alt="Ceiling Work 2">    
+      <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed" alt="Ceiling Work 3">    
+      <img src="https://images.unsplash.com/photo-1628744448840-d1e1c6c86920" alt="Ceiling Work 4">    
+    </div>    
+  </section>    <!-- Weather Dashboard Section -->    <section id="weather">    
+    <div class="weather-dashboard">    
+      <h2 style="text-align:center;">मौसम जानकारी</h2>    
+      <form class="weather-form" onsubmit="fetchWeather(event)">    
+        <input type="text" id="city-input" placeholder="शहर का नाम लिखें (जैसे Kushinagar)" required>    
+        <button type="submit">जानकारी प्राप्त करें</button>    
+      </form>    
+      <div class="weather-result" id="weather-result"></div>    
+    </div>    
+  </section>    <section id="contact">    
+    <div class="contact">    
+      <h2>संपर्क करें</h2>    
+      <p>📍 स्थान: कुशीनगर, उत्तर प्रदेश</p>    
+      <p>📞 <strong>+91 8699465051</strong></p>    
+      <p>💬 WhatsApp: <a href="https://wa.me/918699465051">यहाँ क्लिक करें</a></p>    
+      <a class="btn" href="tel:+918699465051">अभी कॉल करें</a>    
+    </div>    
+  </section>    
+  <footer>    
+    <p>© 2025 BP Ceiling Work | Designed for Kushinagar Clients</p>    
+  </footer>    
+  <script>    
+    async function fetchWeather(event) {    
+      event.preventDefault();    
+      const city = document.getElementById('city-input').value.trim();    
+      const apiKey = 'b587394979697663d3040d318c98199f'; // <-- अपना OpenWeatherMap API की यहाँ डालें    
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${apiKey}&units=metric&lang=hi`;    
+      const resultDiv = document.getElementById('weather-result');    
+      resultDiv.innerHTML = 'लोड हो रहा है...';    
+      try {    
+        const res = await fetch(url);    
+        if (!res.ok) throw new Error('शहर नहीं मिला!');    
+        const data = await res.json();    
+        resultDiv.innerHTML = `    
+          <h3>${data.name}, ${data.sys.country}</h3>    
+          <img class="weather-icon" src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">    
+          <p>${data.weather[0].description}</p>    
+          <p>🌡️ तापमान: ${data.main.temp}°C</p>    
+          <p>💧 आर्द्रता: ${data.main.humidity}%</p>    
+          <p>💨 हवा की गति: ${data.wind.speed} m/s</p>    
+        `;    
+      } catch(e) {    
+        resultDiv.innerHTML = `<div class="weather-error">${e.message}</div>`;    
+      }    
+    }    
+  </script>    
+</body>    
+</html>
